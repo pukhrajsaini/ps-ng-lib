@@ -1,3 +1,9 @@
+@import "core";
+
 .header {
-    height: 60px;
+    height: 6rem;
+    background-color: $primary-color;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
 }

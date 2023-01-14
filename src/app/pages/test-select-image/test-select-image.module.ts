@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ViewComponent } from './components/view/view.component';
+import { TestSelectImageRoutingModule } from './test-select-image-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { ViewComponent } from './components/view/view.component';
     ViewComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    TestSelectImageRoutingModule
   ]
 })
 export class TestSelectImageModule { }
